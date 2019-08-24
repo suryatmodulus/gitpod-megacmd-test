@@ -1,1 +1,0 @@
-echo "Mega Sync Script Started..";
