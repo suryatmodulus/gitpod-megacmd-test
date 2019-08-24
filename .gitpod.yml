@@ -1,0 +1,7 @@
+ports:
+- port: 3000
+tasks:
+- init: >
+    meganz-syncer.sh
+  command: >
+    python -m SimpleHTTPServer 3000
