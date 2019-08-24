@@ -5,6 +5,6 @@ ports:
 tasks:
 - init: >
   command: >
-    chmod +x ./meganz-syncer.sh
-    ./meganz-syncer.sh
+    chmod +x ./meganz-syncer.sh &&
+    ./meganz-syncer.sh &&
     python -m SimpleHTTPServer 3000
